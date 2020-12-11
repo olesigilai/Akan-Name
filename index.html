@@ -19,11 +19,11 @@
       </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Month</label>
-        <input type="number" class="form-control" id="month" placeholder="eg 5" required>
+        <input type="number" class="form-control" id="month" placeholder="eg 5" required max="12" min="01">
       </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Day</label>
-        <input type="number" class="form-control" id="day" placeholder="eg 24" required>
+        <input type="number" class="form-control" id="day" placeholder="eg 24" required max="31" min="01">
       </div>
       <div class="form-group">
         <label for="select gender">Gender</label>
@@ -32,8 +32,10 @@
           <option>Male</option>
           <option>Female</option>
           
+          
         </select>
       </div>
+      <button onclick="getDay ()" type="button" class="btn btn-success">Submit</button>
       
     </form>
   </div>
