@@ -2,11 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="./css/script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+     crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+  <div class="container-fluid">
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Year</label>
+        <input type="number" class="form-control" id="year" placeholder="eg 1990" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Month</label>
+        <input type="number" class="form-control" id="month" placeholder="eg 5" required>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Day</label>
+        <input type="number" class="form-control" id="day" placeholder="eg 24" required>
+      </div>
+      <div class="form-group">
+        <label for="select gender">Gender</label>
+        <select class="form-control" id="gender" required>
+          <option></option>
+          <option>Male</option>
+          <option>Female</option>
+          
+        </select>
+      </div>
+      
+    </form>
+  </div>
+
+  <script src="./css/script.js"></script> 
 </body>
 </html>
