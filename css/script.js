@@ -1,5 +1,5 @@
-var maleName = ["Kwasi", "Kwandwo", "Kwabena", "Kwaku", "Yaw"]
-var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+var maleName = [" Kwasi", " Kwandwo", " Kwabena", " Kwaku", " Yaw"," Kofi"," Kwame"]
+var femaleName = [" Akosua", " Adwoa", " Abenaa", " Akua", " Yaa", " Afua", " Ama"]
 
 function getDay() {
 
@@ -12,14 +12,14 @@ function getDay() {
  
     var gender = document.getElementById("gender").value;
 
-   alert(gender)
+   
     var yy = parseInt(year.substr(2, 4));
 
 
     var century = parseInt(year.substr(0, 2));
 
     var date = parseInt(((century / 4) - 2 * century - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + day) % 7
- alert(date)
+ 
     if (mm <= 0 || mm > 12) {
         alert("enter valid month")
     } else
