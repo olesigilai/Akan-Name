@@ -25,6 +25,9 @@ function getDay() {
     } else
     if (day < 1 || day > 31) {
         alert("enter valid date")
+    if (year<0 || year=="" || year >2020){
+        alert("enter valid year")
+    }
     } else
     if (gender === "male") {
         alert("your Akan male name is" + ""+ "" + maleName[date])
