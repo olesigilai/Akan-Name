@@ -20,19 +20,23 @@ function getDay() {
 
     var date = parseInt(((century / 4) - 2 * century - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + day) % 7
  
-    if (mm <= 0 || mm > 12) {
-        alert("enter valid month")
-    } else
-    if (day < 1 || day > 31) {
-        alert("enter valid date")
-    if (year<0 || year=="" || year >2020){
+    if (year<=0 || year=="" || year >2020){
         alert("enter valid year")
     }
+    else 
+    if (mm <= 0 || mm > 12) {
+        alert("enter valid month")
+    } 
+    else
+    if (day < 1 || day > 31) {
+        alert("enter valid date")
+    
     } else
     if (gender === "male") {
         alert("your Akan male name is" + ""+ "" + maleName[date])
-    } else
-    if (gender === "female") {
+    } 
+    else
+     if (gender === "female") {
         alert("your Akan female name is" + "" + ""+ femaleName[date])
     }
 }

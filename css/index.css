@@ -6,7 +6,26 @@ h1{
     color: white;
     text-align: center;
 
+
 }
-/* .card{
-    text-align: center;
+/* img{
+width: 100%;
+opacity: 0.5;
 } */
+
+
+.card p{
+    background-color: gray;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-size: 100%;
+    margin-top:  70%;
+    margin-bottom: 0%;
+}
+
+form{
+    width: 50%;
+    
+}
