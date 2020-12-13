@@ -34,7 +34,7 @@ function getDay() {
             }
         } else if (day > 28) {
             alert("enter valid date");
-            field.value = month + '/' + '';
+            field.value = mm + '/' + '';
         }
     } else
     if (mm <= 0 || mm > 12) {
