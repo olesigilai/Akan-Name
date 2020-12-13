@@ -11,6 +11,8 @@ function getDay() {
     var day = parseInt(document.getElementById("day").value);
 
     var gender = document.getElementById("gender").value;
+    
+    var clear =document.getElementById("clear") .reset;
 
 
     var yy = parseInt(year.substr(2, 4));
