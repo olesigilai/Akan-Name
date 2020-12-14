@@ -46,9 +46,9 @@ function getDay() {
     }
 
     if (gender === "male") {
-        alert("your Akan male name is" + "" + "" + maleName[date])
+        alert("your Akan male name is" + maleName[date])
     } else
     if (gender === "female") {
-        alert("your Akan female name is" + "" + "" + femaleName[date])
+        alert("your Akan female name is"  + femaleName[date])
     }
 }
